@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vph;
+  height: auto;
+  font-family: sans-serif;
+}
+
+.nav{
+  width: 100%;
+  height: 90px;
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav1{
+  width: 50%;
+  height: 80px;
+}
+
+.nav2{
+  width:35%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.nav3{
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  height: 10px;
+}
+
+.navi{
+  width: 100%;
+  height: 50px;
+}
+
+.nav4{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.home, .about, .team, .events{
+  width: 100%;
+  height: 60px;
+}
+
+.nav4 a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav4 a:hover{
+  text-decoration: underline;
+  animation-delay: 10;
+}
+
+.cnt{
+  padding-top: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.cnt2{
+  width: 40%;
+  display: flex;
+}
+
+.cn1{
+  margin-top: 5px;
+  width: 62%;
+  height: 5px;
+  background-color: #91bd57;
+}
+
+.cn2{
+  width: 37%;
+  margin-left: 1%;
+}
+
+.body-content{
+  margin: 20px;
+  width: auto;
+}
+
+.bdy{
+  display: flex;
+  width: 100%;
+}
+
+.value{
+  width: 40%;
+  margin-top: 2%;
+  border-radius: 20px;
+  background: border-box #e7e8e6;
+  padding: 10px;
+  margin-left: 30%;
+}
+
+div.value ul li{
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.isa{
+
+  width: 40%;
+  border: 2px solid white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: border-box #e7e8e6;
+}
+
+.mis-vis{
+  margin-top: 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.mis-vis{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.mis{
+  padding-top: 10%;
+}
+
+.cmm{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: space-between;
+  background: border-box #e7e8e6;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+h1, h3{
+  font-weight: normal;
+}
+
+.footer{
+  background-color: darkcyan;
+  padding-left: 10px;
+}
+
+td{
+  font-size: 20px;
+  width: 25px;
+}

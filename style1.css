@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vph;
+  height: auto;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.nav{
+  width: 100%;
+  height: 90px;
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav1{
+  width: 50%;
+  height: 80px;
+}
+
+.nav2{
+  width:35%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1%;
+}
+
+.nav3{
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  height: 10px;
+}
+
+.navi{
+  width: 100%;
+  height: 50px;
+
+}
+
+.nav4{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.home, .about, .team, .events{
+  width: 100%;
+  height: 60px;
+}
+
+.nav4 a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.nav4 a:hover{
+
+  text-decoration: underline;
+  animation-delay: 10;
+}
+
+.cnt{
+  padding-top: 10px;
+  width: 100%;
+  height: 80px;
+  background-color: darkcyan;
+  color: white;
+}
+
+.cnt2{
+  width: 40%;
+  display: flex;
+}
+
+.cn1{
+  margin-top: 5px;
+  width: 62%;
+  height: 5px;
+  background-color: #91bd57;
+}
+
+.cn2{
+  width: 37%;
+  margin-left: 1%;
+}
+
+
+.FA{
+  width: 800px;
+  height: 340px;
+  background-color: darkcyan;
+  margin: 60px;
+  display: flex;
+  border-radius: 40px;
+  border-top-right-radius: 550px;
+  border-bottom-right-radius: 550px;
+}
+
+.um{
+  text-align: center;
+  margin: 40px;
+  color: white;
+
+}
+
+.ms{
+  display: flex;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: whitesmoke;
+  border-radius: 200px;
+  margin-top: 120px;
+  margin-left: 10px;
+}
+
+.stu{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  background-color: darkcyan;
+  height: 400px;
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.pre, .pre-e, .sec, .tre{
+  margin-top: 25px;
+  text-align: center;
+  color: white;
+}
+
+.detail{
+  margin-top: 80px;
+}
